@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>registerform</title>
+</head>
+<body bgcolor="cyan">
+<fieldset>
+<table border="2" style="border-collapse: collapse;" cellspacing="5" cellpadding="10" bgcolor="lightgreen" align="center" >
+	<caption><h3>Register</caption>
+		<tr>
+			<td><label for="fname">First Name:</label></td>
+	<td><input type="text" id="name" placeholder="enter Fname" required></td>
+</tr>
+		<tr>
+			<td><label for="lname">last Name:</label></td>
+	<td><input type="text" id="name" placeholder="enter Lname" required></td></tr><br>
+		<tr>
+			<td><label for="age">Age:</label></td>
+			<td>
+   <input type="number" id="age" placeholder="enter age" required></td></tr><tr>
+   	<td>
+		<label for="mobile">Mobile:</label></td>
+	    <td><input type="number" id="mobile" placeholder="enter mobile no" required></td></tr>
+	<tr>
+       <td rowspan="2">
+			<label for="gender">Gender</label></td>
+	     <td><input type="radio"  value="play" >male</td></tr>
+	   <tr><td> <input type="radio"  value=" eat" >female</td></tr>
+		<tr>
+			<td><label for="email">Email:</label></td>
+<td><input type="email" id="email" name="email" placeholder="enter email" required></td>
+</tr>
+		<tr >
+			<td rowspan="3">
+		<label for="Hobby">Hobbies:</label></td>
+	   <td> <input type="checkbox"  value="play" >playing</td></tr>
+	    <tr><td> <input type="checkbox"  value=" eat" >eating</td></tr>
+	<td><input type="checkbox" value="sleep">sleeping</td>
+
+	<tr>
+		<td>
+<label for="password">Password:</label> </td><td><input type="password" id="password" placeholder="enter password" required></td>
+</tr>
+		<tr>
+			<td>
+			<label for="password">comfirm password:</label></td>
+		<td><input type="password" id="pass" placeholder="enter confirm password" required></td></tr>
+	<tr>
+		<td>
+		<label>Select State</label></td>
+		<td><select>
+			<option value="Andra pradesh">AP</option>
+			<option value="Himachal pradesh">HP</option>
+			<option value="uttar pradesh">UP</option>
+		</select></td>
+	
+	<tr>
+		<td>
+			<label for="description">Description:</label></td>
+					<td><input type="description" placeholder="enter description" ></td></tr>
+				<tr>
+			<td><label>Fav fruit:</label></td>
+						<td><input type="text" id="favfruit" list="fruit" placeholder="select fav fruit">
+						<datalist id="fruit">	
+							<option value=" apple"></option>
+								<option value="bannana"></option>
+									<option value="mango"></option>
+							</datalist></td>
+						</tr>
+						<tr>
+							<td>
+								
+								<input type="submit">
+							</td>
+						<td><input type="reset" ></td>
+					</tr>
+<legend>Register Form</legend></fieldset>
+
+	</table>
+
+
+</form>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Animations</title>
+	<style>
+		div{
+			border: solid;
+			height: 400px;
+			width: 200px;
+			background-color: red;
+			animation-name: narmada;
+			animation-duration: 4s;
+			animation-delay: 0.5s;
+			animation-iteration-count:3;
+			animation-direction:alternate;
+			animation-timing-function: ease-in-out;
+			animation-fill-mode: both;
+		}
+		@keyframes narmada{
+			from{
+				background-color: blue;
+				height: 300px;
+				width: 200px;
+			}
+			to{
+				background-color: orange;
+				height: 200px;
+				width:500px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div>
+		
+	</div>
+
+</body>
+</html>
